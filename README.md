@@ -1,26 +1,17 @@
-# NEXUS
+﻿# NEXUS
 
-**Document intelligence for the 2026 UAP records release.**
+**Document intelligence applied to large public records releases.**
 
-NEXUS is a research instrument that treats a large government document release as a dataset. It ingests the 2026 UAP records corpus and turns unstructured pages into structured, queryable evidence: autonomous document acquisition, OCR and structured extraction into a relational schema, then spatial statistics, time-series decomposition, anomaly detection, and redaction-pattern analysis across the corpus.
+NEXUS treats a bulk government document release as a dataset rather than a reading assignment. Scanned paper carries structure that is measurable at scale, and measurement scales in a way close reading does not.
 
-The premise is simple: a hundred and sixty-plus files of scanned government paper is not a reading assignment, it is a corpus. Names, dates, places, redactions, and document structure are all measurable, and measurement scales in a way that close reading cannot.
+## Status
 
-## What the instrument does
+Exploratory research instrument, in private development. Methods and findings are not published here. Hypotheses stay private until they are defensible, and the bar for defensible is set by the same claims-audit discipline used across every Anima Audire pipeline.
 
-- Acquires and versions source documents so every claim traces back to a specific page of a specific release
-- Extracts text, entities, dates, and locations into a relational schema built for reproducible queries
-- Runs geographic clustering, temporal decomposition, and multiple independent anomaly-detection methods over the extracted corpus
-- Analyzes redaction patterns as data in their own right
+## What is public
 
-## Why this repo is quiet
-
-NEXUS is an exploratory instrument. Hypotheses stay private until they are defensible, and nothing gets asserted publicly that has not survived the same claims-audit discipline used across every Anima Audire pipeline. Write-ups will appear here if and when findings clear that bar.
-
-## Stack
-
-`Python` · `SQLite/Postgres` · `OCR tooling` · `pandas` · `scikit-learn` · `spatial statistics` · `Docker`
+The engineering discipline behind this work is published separately and domain-neutral, as **[research-defensibility-kit](https://github.com/RobotWhiteBread/research-defensibility-kit)**: a claims registry, fail-closed release gates, blind locks, and negative controls. Applied to a document corpus, the same rule holds. An interesting pattern is not a finding until it has survived an attempt to kill it.
 
 ---
 
-Aaron Price · Anima Audire, LLC · [Profile](https://github.com/RobotWhiteBread) · aaron.price.unl@gmail.com
+Aaron Price Â· Anima Audire, LLC Â· [Profile](https://github.com/RobotWhiteBread) Â· aaron.price.unl@gmail.com
